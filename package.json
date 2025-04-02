@@ -1,0 +1,40 @@
+{
+  "name": "ts-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for running TypeScript with Node.js using ts-node. ",
+  "main": "dist/index.js",
+  "bin": {
+    "ts-node-boilerplate": "create.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/index.ts --outDir dist",
+    "start": "node --nolazy -r ts-node/register/transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domkalan/ts-node-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "ts-node",
+    "typescript",
+    "javascript",
+    "nodejs",
+    "nodejs-typescript",
+    "nodejs-ts-node"
+  ],
+  "author": "domkalan",
+  "bugs": {
+    "url": "https://github.com/domkalan/ts-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/domkalan/ts-node-boilerplate#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "degit": "^2.8.4"
+  }
+}
