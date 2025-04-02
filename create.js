@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { execSync } = require("child_process");
 const degit = require("degit");
 
 const repo = "https://github.com/domkalan/ts-node-boilerplate";
@@ -13,6 +14,8 @@ degitEmitter.clone(targetDir).then(() => {
     console.log(`  cd ${targetDir}`);
     console.log("  npm install");
     console.log("  npm start");
+
+    execSync('npm i', { cwd: targetDir });
 
     process.exit(0);
 }).catch(err => console.error("❌ Error:", err));
