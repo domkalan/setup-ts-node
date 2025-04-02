@@ -13,4 +13,6 @@ degitEmitter.clone(targetDir).then(() => {
     console.log(`  cd ${targetDir}`);
     console.log("  npm install");
     console.log("  npm start");
+
+    process.exit(0);
 }).catch(err => console.error("❌ Error:", err));
