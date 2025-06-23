@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc src/index.ts --outDir dist",
-    "start": "node --nolazy -r ts-node/register/transpile-only src/index.ts"
+    "develop": "node --nolazy -r ts-node/register/transpile-only src/index.ts",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
