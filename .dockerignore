@@ -132,8 +132,8 @@ dist
 # macos stuff
 .DS_STORE
 
-# src directory
-src/
+# dist directory
+dist/
 
 # data
 data/
