@@ -1,6 +1,6 @@
 {
   "name": "setup-ts-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Boilerplate for running TypeScript with Node.js using ts-node. ",
   "main": "dist/index.js",
   "bin": {

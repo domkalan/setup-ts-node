@@ -78,6 +78,9 @@ async function main() {
         // Remove the create.js script
         unlinkSync(`${projectPath}/create.js`);
 
+        // Remove the license
+        unlinkSync(`${projectPath}/LICENSE`);
+
         // Done!
         console.log(`✅ Done! Your project has been created successfully. Located at: ${projectPath}`);
 
