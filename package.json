@@ -1,10 +1,10 @@
 {
-  "name": "ts-node-boilerplate",
+  "name": "setup-ts-node",
   "version": "1.0.0",
   "description": "Boilerplate for running TypeScript with Node.js using ts-node. ",
   "main": "dist/index.js",
   "bin": {
-    "ts-node-boilerplate": "create.js"
+    "setup-ts-node": "create.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/domkalan/ts-node-boilerplate.git"
+    "url": "git+https://github.com/domkalan/setup-ts-node.git"
   },
   "keywords": [
     "boilerplate",
@@ -23,19 +23,22 @@
     "javascript",
     "nodejs",
     "nodejs-typescript",
-    "nodejs-ts-node"
+    "nodejs-ts-node",
+    "setup-ts-node",
+    "setup-typescript"
   ],
   "author": "domkalan",
   "bugs": {
-    "url": "https://github.com/domkalan/ts-node-boilerplate/issues"
+    "url": "https://github.com/domkalan/setup-ts-node/issues"
   },
-  "homepage": "https://github.com/domkalan/ts-node-boilerplate#readme",
+  "homepage": "https://github.com/domkalan/setup-ts-node#readme",
   "devDependencies": {
     "@types/node": "^22.13.17",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "degit": "^2.8.4"
+    "degit": "^2.8.4",
+    "prompts": "^2.4.2"
   }
 }
