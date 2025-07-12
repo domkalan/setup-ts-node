@@ -7,5 +7,5 @@ npx setup-ts-node
 ```
 
 ### Features
-* A `launch.json` for ts-node debugging.
+* A `launch.json` for launching directly in VSCode.
 * A `Dockerfile` and `.dockerignore` pre-configured for TypeScript.
